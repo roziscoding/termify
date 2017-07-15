@@ -1,0 +1,15 @@
+{
+  "name": "termify",
+  "version": "1.0.0",
+  "description": "Simple terminal spotify music search",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha test --reporter=nyan"
+  },
+  "keywords": [
+    "spotify",
+    "terminal"
+  ],
+  "author": "Rogério Munhoz (@rjmunhoz)",
+  "license": "MIT"
+}
