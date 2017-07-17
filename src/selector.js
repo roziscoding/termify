@@ -6,12 +6,12 @@ const select = data => {
     type: 'list',
     name: 'artist',
     choices: artists,
-    message: 'Artista'
+    message: 'Artist'
   }, {
     type: 'list',
     name: 'song',
     choices: answers => data[answers.artist].map((x, i) => `${i} - ${x.name}`),
-    message: 'Música'
+    message: 'Song'
   }]
   return inq.prompt(questions)
 }

@@ -2,6 +2,6 @@ module.exports = {
   name: 'query',
   short: 'q',
   type: 'string',
-  description: 'The query to lookup spotify for',
+  description: 'The name of the song you\'re looking for',
   example: 'termify -q "Castle On The HillS"'
 }
