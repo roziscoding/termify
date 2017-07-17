@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 const { error, info } = require('coloredlog')
-const open = require('open')
 const inq = require('inquirer')
 require('dotenv').config()
 
