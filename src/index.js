@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 const { error, info } = require('coloredlog')
-const clipboard = require('node-clipboard')
 const open = require('open')
 const inq = require('inquirer')
 require('dotenv').config()
@@ -43,7 +42,6 @@ const run = async () => {
 
   const choice = await selector.select(data)
   const track = data[choice.artist][choice.song.match(/(\d*).*/)[1]]
-  clipboard(track.uri)
   info('URI:')
   info(track.uri)
 }
